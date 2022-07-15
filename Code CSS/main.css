@@ -1,0 +1,38 @@
+#IntroducingCSS{
+    font-family: Arial.Verdana.sans-serif;
+}
+#VD1,.VD2{
+    color: #ee3e80;
+}
+.P1,.P2{
+    color: #665544;
+}
+#Usingexternalcss{
+    font-family: Arial;
+    background-color: rgb(185.179.175);
+}
+.P3{
+    color: rgb(255.255.255);
+}
+#*{
+    font-family: Arial,Verdana,sans-serif;
+ }
+ .i{
+     color: green;
+ }
+ .b{
+     color: pink;
+ }
+ #intro{
+     font-size: 100%;
+ }
+ .VD5{
+     font-family: Arial,Verdana,sans-serif;
+     color: #665544;
+     padding: 10px;
+ }
+ .page{
+     border: 1px solid #665544;
+     background-color: #efefef;
+     padding: inherit;
+ }
