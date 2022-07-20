@@ -1,0 +1,22 @@
+p{
+    font-size: 20px;
+    color: #0c5460;
+}
+body{
+    background-image: url("https://vnn-imgs-a1.vgcloud.vn/icdn.dantri.com.vn/2021/05/08/kimoanh-851-1620472406599.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+h3{
+    color: #0f6674;
+}
+footer{
+    border: white;
+}
+button{
+    color: #ee3e80;
+    background-color: gold;
+}
+input{
+    background-color: #8c4529;
+}
