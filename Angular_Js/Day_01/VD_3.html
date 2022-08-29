@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo for Angular </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+</head>
+<body>
+<div ng-app="xetdiemApp" ng-controller="xetdiemController" >
+  <b>Kết quả thi môn C:</b>
+  <div> Điểm lý thuyết: <input type="number" min="0" ng-model="diemlythuyet" required></div>
+  <div> Điểm thực hành: <input type="number" min="0" ng-model="diemthuchanh" required></div>
+  <div>
+    <b>Kết Quả:</b>
+    <span>
+         {{kqDiem}}
+     </span>
+    <button class="btn" ng-click="kqRun()">Ket qua</button>
+  </div>
+
+  <script>
+    var app=angular.module('xetdiemApp',[]);
+    app.controller('xetdiemController',function ($scope) {
+      $scope.kqDiem="Click";
+      $scope.kqRun=function(){
+        if(this.diemlythuyet>=5 && this.diemthuchanh>=5){
+          this.kqDiem="Đỗ";
+        } else {
+          this.kqDiem="Trượt";
+        }
+      };
+    });
+  </script>
+
+
+</div>
+</body>
+</html>
