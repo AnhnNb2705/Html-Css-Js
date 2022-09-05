@@ -1,0 +1,27 @@
+/* Styles go here */
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 1.0rem;
+}
+.btn-info {
+    margin: 0px auto;
+    color: #d0eaf5;
+    background-color: green;
+    border-color: #ced4da;
+    border-radius: 10px;
+}
+.card_Tital{
+    background-color: #0069d9;
+    margin: 0px auto;
+    border-radius: 10px;
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.control-label{
+    max-width: 100%;
+}
