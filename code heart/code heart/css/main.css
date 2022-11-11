@@ -34,14 +34,14 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 .title h1 {
   z-index: 99;
   position: relative;
-  color: #713bc4;
+  color: #22a4c9;
   font-weight: 100;
   font-family: Gabriola, Times New Roman, se font-size;
   font-size: 70px;
   padding: 0;
   margin: 0;
   line-height: 1;
-  text-shadow: 0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #066928, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d;
+  text-shadow: 0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #ff7fe3, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d;
 }
 
 .title h1 span {
@@ -49,7 +49,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
   font-weight: 600;
   padding: 0;
   margin: 0;
-  color: #7ee0c9;
+  color: #1db28f;
 }
 
 .title h3 {
@@ -95,6 +95,7 @@ canvas {
 .STARDUST2 {
   position: relative !important;
   top: -40px;
+
 }
 
 .STARDUST3 {

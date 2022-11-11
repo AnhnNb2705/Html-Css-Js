@@ -29,7 +29,7 @@ class Particle1 {
     this.h = $(window).height();
     this.direction = this.random > 0.5 ? -1 : 1;
     this.radius = 1 + 3 * this.random;
-    this.color = "#ff417d";
+    this.color = "#c4788e";
 
     this.ID = setInterval(
       function() {
@@ -58,7 +58,7 @@ class Particle1 {
     this.canvas.shadowOffsetX = 0;
     this.canvas.shadowOffsetY = 0;
     // this.canvas.shadowBlur = 6;
-    this.canvas.shadowColor = "#a13f8b";
+    this.canvas.shadowColor = "#915286";
     this.canvas.fillStyle = this.color;
     this.canvas.fill();
     this.canvas.closePath();
